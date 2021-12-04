@@ -26,3 +26,8 @@ this repository collects Deep learning/Machine learning papers for protein resea
 
 **Accurate prediction of protein structures and interactions using a three-track neural network**   
 [Baek, Minkyung, et al.Science 373.6557 (2021): 871-876.](https://doi.org/10.1126/science.abj8754)
+
+### Classification
+**Deep learning for identifying antibody repsonse to dengue infection using CDR H3 info**   
+[Horst, Alexander et al. Frontiers in Artificial Intelligence 4:715462 (2021)](https://doi.org/10.3389/frai.2021.715462)
+
