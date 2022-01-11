@@ -33,6 +33,8 @@ This repository collects Deep learning/Machine learning papers for protein resea
 
 ### Predicting interactions
 **Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning**
+[Gainza, Pablo, et al. Nature Methods 17.2 (2020): 184-192.](https://doi.org/10.1038/s41592-019-0666-6)
+
 [geometric deep learning]
 - ligand pocket similarity comparison
 - protein–protein interaction (PPI) site prediction
