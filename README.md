@@ -2,7 +2,7 @@
 
 ### Basic idea
 
-this repository collects Deep learning/Machine learning papers for protein research. the idea is from [Kevin Yang](https://github.com/yangkky/Machine-learning-for-proteins)
+This repository collects Deep learning/Machine learning papers for protein research (especial antigen-antibody). The idea is derived from [Kevin Yang](https://github.com/yangkky/Machine-learning-for-proteins)
 
 ### Categories
 
@@ -31,3 +31,10 @@ this repository collects Deep learning/Machine learning papers for protein resea
 **Deep learning for identifying antibody repsonse to dengue infection using CDR H3 info**   
 [Horst, Alexander et al. Frontiers in Artificial Intelligence 4:715462 (2021)](https://doi.org/10.3389/frai.2021.715462)
 
+### Predicting interactions
+**Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning**
+[geometric deep learning]
+- ligand pocket similarity comparison
+- protein–protein interaction (PPI) site prediction
+- scanning of surfaces
+[Gainza, Pablo, et al. Nature Methods 17.2 (2020): 184-192.](https://doi.org/10.1038/s41592-019-0666-6)
