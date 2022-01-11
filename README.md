@@ -44,3 +44,18 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Méndez-Lucio, Oscar, et al. Nature Machine Intelligence 3.12 (2021): 1033-1039.](https://doi.org/10.1038/s42256-021-00409-9)   
 - statistical potential of ligand–target complex based on distance likelihood
 - ligand–target binding conformation
+
+### Generative models
+[transformer]
+**Generative Language Modeling for Antibody Design**   
+[Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray. bioRxiv (2021).](https://doi.org/10.1101/2021.12.13.472419)   
+- train 558M antibody from OAS
+- generate antibody sequence
+
+### Other unsupervised learning
+[transformer]
+**ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing**   
+[Elnaggar, Ahmed, et al. bioRxiv. 2020." URL http://arxiv. org/abs (2007).](https://github.com/agemagician/ProtTrans)
+- protein embeddings
+- per-residue prediction of protein secondary structure
+- per-protein predictions of protein sub-cellular localization
