@@ -11,7 +11,7 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Classification](#classification-and-annotation)    
 [Predicting interactions](#predicting-interactions)   
 [Generative models](#generative-models)   
-[Others](#other-supervised-learning)    
+[Others](#other-unsupervised-learning)    
 
 ### Reviews
 
@@ -39,3 +39,8 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - protein–protein interaction (PPI) site prediction
 - scanning of surfaces
 
+[geometric deep learning]
+**A geometric deep learning approach to predict binding conformations of bioactive molecules**   
+[Méndez-Lucio, Oscar, et al. Nature Machine Intelligence 3.12 (2021): 1033-1039.](https://doi.org/10.1038/s42256-021-00409-9)   
+- statistical potential of ligand–target complex based on distance likelihood
+- ligand–target binding conformation
