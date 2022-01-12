@@ -34,11 +34,11 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - combinatorial mutagenesis of RBD
 - model for ACE2 binder/non-binder; mAb escaper/non-escaper
 
-[GCN]
+[GCN+RNN]
 **Structure-based protein function prediction using graph convolutional networks**   
 [Gligorijević, Vladimir, et al. Nature communications 12.1 (2021): 1-14.](https://doi.org/10.1038/s41467-021-23303-9)   
-- function predictions
-- 
+- function predictions ( GO terms and EC number)
+- LSTM for sequence and GCN for structure
 
 [MLP]
 **Deep learning for identifying antibody repsonse to dengue infection using CDR H3 info**   
