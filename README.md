@@ -11,7 +11,7 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Classification](#classification-and-annotation)    
 [Predicting interactions](#predicting-interactions)   
 [Generative models](#generative-models)   
-[Others](#other-unsupervised-learning)    
+[Representation learning](#representation-learning)    
 
 ### Reviews
 
@@ -64,14 +64,21 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - ligand–target binding conformation
 
 ### Generative models
-[transformer]
+[transformer/self-supervised learning]
 **Generative Language Modeling for Antibody Design**   
 [Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray. bioRxiv (2021).](https://doi.org/10.1101/2021.12.13.472419)   
-- train 558M antibody from OAS
-- generate antibody sequence
+- train 558M antibody from OAS with (maksed token, answer) as input
+- generate antibody sequence library with CDRH3 maksed
 
-### Other unsupervised learning
-[transformer]
+### Representation learning (feature learning)
+[transformer/self-supervised learning]
+**Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences**   
+[Rives, Alexander, et al. Proceedings of the National Academy of Sciences 118.15 (2021).](https://doi.org/10.1073/pnas.2016239118)
+- protein language model trained on 250M protein sequences, Masked-Language Modeling
+- represent physicochemical properties and secondary structure
+- mutational effect prediction
+
+[transformer/self-supervised learning]
 **ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing**   
 [Elnaggar, Ahmed, et al. bioRxiv. 2020." URL http://arxiv. org/abs (2007).](https://github.com/agemagician/ProtTrans)
 - protein embeddings
