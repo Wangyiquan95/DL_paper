@@ -74,9 +74,23 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [transformer/self-supervised learning]
 **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences**   
 [Rives, Alexander, et al. Proceedings of the National Academy of Sciences 118.15 (2021).](https://doi.org/10.1073/pnas.2016239118)
-- protein language model trained on 250M protein sequences, Masked-Language Modeling
-- represent physicochemical properties and secondary structure
-- mutational effect prediction
+- protein language model trained on 250M protein sequences, Masked-Language Modeling*
+- *output the probability that an amino acid occurs at a position in a protein given the surrounding context
+- represent physicochemical properties and secondary structure; mutational effect prediction
+
+[transformer/self-supervised learning]
+**MSA Transformer**   
+[Rao, Roshan, et al. bioRxiv (2021).](https://doi.org/10.1101/2021.02.12.430858)
+- protein language model trained on 26 million MSAs, Masked-Language Modeling
+- row and column attention
+- represent physicochemical properties and secondary structure; mutational effect prediction
+
+[transformer/self-supervised learning]
+**Language models enable zero-shot prediction of the effects of mutations on protein function**   
+[Meier, Joshua, et al. Advances in Neural Information Processing Systems 34 (2021).](https://doi.org/10.1101/2021.07.09.450648)
+- protein language model trained on 98M protein sequences, Masked-Language Modeling
+- score mutational effect with the predicted probability
+- Zero-shot transfer, ESM-1v, mutational effect prediction
 
 [transformer/self-supervised learning]
 **ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing**   
