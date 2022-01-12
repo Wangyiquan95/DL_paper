@@ -2,7 +2,7 @@
 
 ### Basic idea
 
-This repository collects Deep learning/Machine learning papers for protein research (especial antigen-antibody). The idea is derived from [Kevin Yang](https://github.com/yangkky/Machine-learning-for-proteins)
+This repository collects Deep learning/Machine learning papers for protein research (especially antigen-antibody). The idea is derived from [Kevin Yang](https://github.com/yangkky/Machine-learning-for-proteins)
 
 ### Categories
 
@@ -28,6 +28,12 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Baek, Minkyung, et al.Science 373.6557 (2021): 871-876.](https://doi.org/10.1126/science.abj8754)
 
 ### Classification
+[RNN]
+**Predictive profiling of SARS-CoV-2 variants by deep mutational learning**   
+[Taft, Joseph M., et al. Available at SSRN 3982671 (2021).](https://doi.org/10.1101/2021.12.07.471580)   
+- combinatorial mutagenesis of RBD
+- model for ACE2 binder/non-binder; mAb escaper/non-escaper
+[MLP]
 **Deep learning for identifying antibody repsonse to dengue infection using CDR H3 info**   
 [Horst, Alexander et al. Frontiers in Artificial Intelligence 4:715462 (2021)](https://doi.org/10.3389/frai.2021.715462)
 
