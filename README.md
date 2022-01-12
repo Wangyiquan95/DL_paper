@@ -70,7 +70,7 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - train 558M antibody from OAS with (maksed token, answer) as input
 - generate antibody sequence library with CDRH3 maksed
 
-### Representation learning (feature learning)
+### Representation learning
 [transformer/self-supervised learning]
 **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences**   
 [Rives, Alexander, et al. Proceedings of the National Academy of Sciences 118.15 (2021).](https://doi.org/10.1073/pnas.2016239118)
