@@ -34,6 +34,11 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - combinatorial mutagenesis of RBD
 - model for ACE2 binder/non-binder; mAb escaper/non-escaper
 
+[CNN]
+**ProteInfer: deep networks for protein functional inference**   
+[Sanderson, Theo, et al. bioRxiv (2021).](https://doi.org/10.1101/2021.09.20.461077)   
+- function predictions ( GO terms and EC number)
+
 [GCN+RNN]
 **Structure-based protein function prediction using graph convolutional networks**   
 [Gligorijević, Vladimir, et al. Nature communications 12.1 (2021): 1-14.](https://doi.org/10.1038/s41467-021-23303-9)   
