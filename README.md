@@ -11,7 +11,7 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Classification](#classification-and-annotation)    
 [Predicting interactions](#predicting-interactions)   
 [Generative models](#generative-models)   
-[Representation learning](#representation-learning)    
+[Representation learning with self-supervised learning](#representation-learning-with-self-supervised-learning)    
 
 ### Reviews
 
@@ -64,28 +64,33 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - ligand–target binding conformation
 
 ### Generative models
-[transformer/self-supervised learning]
+[transformer/Masked-Language Modeling]
 **Generative Language Modeling for Antibody Design**   
 [Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray. bioRxiv (2021).](https://doi.org/10.1101/2021.12.13.472419)   
 - train 558M antibody from OAS with (maksed token, answer) as input
 - generate antibody sequence library with CDRH3 maksed
 
-### Representation learning
-[transformer/self-supervised learning]
+[transformer/next-token prediction]
+**ProGen: Language Modeling for Protein Generation**   
+[Madani, Ali, et al. arXiv preprint arXiv:2004.03497 (2020).](https://arxiv.org/abs/2004.03497)
+- transformer, 280M protein sequences with (tag,sequence) as input
+
+### Representation learning with self-supervised learning
+[transformer/Masked-Language Modeling]
 **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences**   
 [Rives, Alexander, et al. Proceedings of the National Academy of Sciences 118.15 (2021).](https://doi.org/10.1073/pnas.2016239118)
-- protein language model trained on 250M protein sequences, Masked-Language Modeling*
-- *output the probability that an amino acid occurs at a position in a protein given the surrounding context
-- represent physicochemical properties and secondary structure; mutational effect prediction
+- protein language model trained on 250M protein sequences
+- represent physicochemical properties and secondary structure
+- mutational effect prediction
 
-[transformer/self-supervised learning]
+[transformer/Masked-Language Modeling]
 **MSA Transformer**   
 [Rao, Roshan, et al. bioRxiv (2021).](https://doi.org/10.1101/2021.02.12.430858)
-- protein language model trained on 26 million MSAs, Masked-Language Modeling
+- protein language model trained on 26 million MSAs
 - row and column attention
 - represent physicochemical properties and secondary structure; mutational effect prediction
 
-[transformer/self-supervised learning]
+[transformer/Masked-Language Modeling]
 **Language models enable zero-shot prediction of the effects of mutations on protein function**   
 [Meier, Joshua, et al. Advances in Neural Information Processing Systems 34 (2021).](https://doi.org/10.1101/2021.07.09.450648)
 - protein language model trained on 98M protein sequences, Masked-Language Modeling
@@ -96,7 +101,13 @@ This repository collects Deep learning/Machine learning papers for protein resea
 **Pretrained language models for proteins**
 [Facebook AI Research](https://github.com/facebookresearch/esm)
 
-[transformer/self-supervised learning]
+[RNN/next-token prediction]
+**Unified rational protein engineering with sequence-based deep representation learning**   
+[Alley, Ethan C., et al. Nature methods 16.12 (2019): 1315-1322.](https://doi.org/10.1038/s41592-019-0598-1)
+- UniRep, mLSTM trained on 24 million UniRef50 proteins
+- encodes physicochemistry, organism level information, secondary structure, evolutionary and functional information, and higher-order structural features
+
+[transformer/Masked-Language Modeling]
 **ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing**   
 [Elnaggar, Ahmed, et al. bioRxiv. 2020." URL http://arxiv. org/abs (2007).](https://github.com/agemagician/ProtTrans)
 - protein embeddings
