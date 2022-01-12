@@ -92,6 +92,10 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - score mutational effect with the predicted probability
 - Zero-shot transfer, ESM-1v, mutational effect prediction
 
+[tools from above papers]
+**Pretrained language models for proteins**
+[Facebook AI Research](https://github.com/facebookresearch/esm)
+
 [transformer/self-supervised learning]
 **ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing**   
 [Elnaggar, Ahmed, et al. bioRxiv. 2020." URL http://arxiv. org/abs (2007).](https://github.com/agemagician/ProtTrans)
