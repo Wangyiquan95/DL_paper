@@ -27,6 +27,10 @@ This repository collects Deep learning/Machine learning papers for protein resea
 **Accurate prediction of protein structures and interactions using a three-track neural network**   
 [Baek, Minkyung, et al.Science 373.6557 (2021): 871-876.](https://doi.org/10.1126/science.abj8754)
 
+[Transformer/recurrent geometric network]
+**Single-sequence protein structure prediction using language models from deep learning**
+[Chowdhury, Ratul, et al. bioRxiv (2021).](https://doi.org/10.1101/2021.08.02.454840)
+
 ### Classification
 [RNN]
 **Predictive profiling of SARS-CoV-2 variants by deep mutational learning**   
