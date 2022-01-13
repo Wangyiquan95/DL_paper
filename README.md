@@ -75,6 +75,13 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Madani, Ali, et al. arXiv preprint arXiv:2004.03497 (2020).](https://arxiv.org/abs/2004.03497)
 - transformer, 280M protein sequences with (tag,sequence) as input
 
+[GAN/CNN]
+**Expanding functional protein sequence spaces using generative adversarial networks**   
+[Repecka, Donatas, et al. Nature Machine Intelligence 3.4 (2021): 324-333.](https://doi.org/10.1038/s42256-021-00310-5)
+- proteinGAN, 16,706 bacterial MDH enzymes as training set
+- expands the known MDH sequence space, experiemtal validated
+
+
 ### Representation learning with self-supervised learning
 [transformer/Masked-Language Modeling]
 **Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences**   
