@@ -10,6 +10,7 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Predicting structure](#predicting-structure)   
 [Classification](#classification-and-annotation)    
 [Predicting interactions](#predicting-interactions)   
+[Antibody design and optimizations](#antibody-design-and-optimizations)  
 [Generative models](#generative-models)   
 [Representation learning with self-supervised learning](#representation-learning-with-self-supervised-learning)    
 
@@ -66,6 +67,10 @@ This repository collects Deep learning/Machine learning papers for protein resea
 [Méndez-Lucio, Oscar, et al. Nature Machine Intelligence 3.12 (2021): 1033-1039.](https://doi.org/10.1038/s42256-021-00409-9)   
 - statistical potential of ligand–target complex based on distance likelihood
 - ligand–target binding conformation
+
+### Antibody design and optimizations
+
+
 
 ### Generative models
 [transformer/Masked-Language Modeling]
