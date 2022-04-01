@@ -69,8 +69,25 @@ This repository collects Deep learning/Machine learning papers for protein resea
 - ligand–target binding conformation
 
 ### Antibody design and optimizations
+[CNN]
+**Antibody complementarity determining region design using high-capacity machine learning**
+[Liu, Ge, et al. Bioinformatics 36.7 (2020): 2126-2133.](https://doi.org/10.1093/bioinformatics/btz895)
+- phage display panning
+- modeling antibody affinity with neural networks 
+- sequence affinity improvement with model gradient-based optimization
 
+[CNN]
+**Optimization of therapeutic antibodies by predicting antigen specificity from antibody sequence via deep learning**
+[Mason, Derek M., et al. Nature Biomedical Engineering 5.6 (2021): 600-612.](https://doi.org/10.1038/s41551-021-00699-9)
+- DMS antibody trastuzumab CDRH3
+- CNN model binder/non-binder of antibody trastuzumab
+- classify all possible sequence variants into binder/non-binder
+- a number of these properties prediction to filter for testing potential antibody—including viscosity, clearance, stability, specificity, solubility and immunogenicity
 
+[geometric deep learning]
+**Deep learning guided optimization of human antibody against SARS-CoV-2 variants with broad neutralization**
+[Shan, Sisi, et al.Proceedings of the National Academy of Sciences 119.11 (2022): e2122954119.](https://doi.org/10.1073/pnas.2122954119)
+- predicts changes in binding energy upon mutation (ddG) for protein-protein complexes
 
 ### Generative models
 [transformer/Masked-Language Modeling]
