@@ -32,6 +32,13 @@ This repository collects Deep learning/Machine learning papers for protein resea
 **Single-sequence protein structure prediction using language models from deep learning**
 [Chowdhury, Ratul, et al. bioRxiv (2021).](https://doi.org/10.1101/2021.08.02.454840)
 
+[CNN/RNN]
+**Antibody structure prediction using interpretable deep learning**
+[Ruffolo, Jeffrey A., Jeremias Sulam, and Jeffrey J. Gray. Patterns 3.2 (2022): 100406.](https://doi.org/10.1016/j.patter.2021.100406)
+- a deep residual convolutional network that predicts FV structure, represented as relative distances and orientations between pairs of residues
+- second stage is a fast Rosetta-based protocol for structure realization
+- long CDR prediction is not good
+
 ### Classification
 [RNN]
 **Predictive profiling of SARS-CoV-2 variants by deep mutational learning**   
